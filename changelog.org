@@ -1,4 +1,5 @@
 * Change log
 ** [Unrealeased] [2016-11-11]
 *** Changed
+- Added the hello phoenix page.
 - Changed the user name and password in dev.exs by Andrew
