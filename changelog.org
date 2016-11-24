@@ -1,6 +1,9 @@
 * Change log
 **	[Unrealeased] [2016-11-24]
 *** Changed
+- Added virtual fields to the user schema
+- modified the tests to accept the virtual fields
+- Added confirm password field to the form.
 - Added user path to the router.
 - Added the post path to the router.
 ***	Added
