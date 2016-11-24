@@ -1,4 +1,9 @@
 * Change log
+**	[Unrealeased] [2016-11-24]
+*** Changed
+- Added the post path to the router.
+***	Added
+- Created posts using phoenix.gen.html
 ** [Unrealeased] [2016-11-11]
 *** Changed
 - Added the /hello/:messenger to the path to display custom messages 
