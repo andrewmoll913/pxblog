@@ -64,9 +64,4 @@ defmodule Pxblog.UserControllerTest do
     assert redirected_to(conn) == user_path(conn, :index)
     refute Repo.get(User, user.id)
   end
-	
-	test "password_digest value gets set to a hash" do
-		changeset = User.changeset(%User{}, @valid_attrs)
-		assert get_change(changeset, :password_digest) == "ABCDE"
-	end
 end
