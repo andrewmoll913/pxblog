@@ -20,6 +20,7 @@ defmodule Pxblog.Router do
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
     resources "/posts", PostsController
+		resources "/users", UserController
   end
 
   # Other scopes may use custom stacks.
