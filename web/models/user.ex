@@ -30,5 +30,6 @@ defmodule Pxblog.User do
 			|> put_change(:password_digest, hashpwsalt(password))
 		else
 			changeset
+		end
 	end
 end
